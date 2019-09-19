@@ -12,7 +12,7 @@
         for ($i=1; $i <= 10 ; $i++) 
         { 
             ?><p><?php
-            echo $num ."X" .$i ."=" .$num*$i;
+            echo $num . " X " . $i . " = " . $num * $i;
             ?></p><?php
         }
     ?>
