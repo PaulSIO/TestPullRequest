@@ -12,12 +12,12 @@
     <li><a href="Table.php?num=2">Table de 2</a></li>
     <li><a href="Table.php?num=3">Table de 3</a></li>
     <li><a href="Table.php?num=4">Table de 4</a></li>
-    <li><a href="Table.php?num=5">Table de 5</a></li>
-    <li><a href="Table.php?num=6">Table de 6</a></li>
-    <li><a href="Table.php?num=7">Table de 7</a></li>
-    <li><a href="Table.php?num=8">Table de 8</a></li>
-    <li><a href="Table.php?num=9">Table de 9</a></li>
-    <li><a href="Table.php?num=10">Table de 10</a></li>
+    <?php
+    for ($i=5; $i <=10 ; $i++) { 
+        ?> <li><a href="Table.php?num=<?php echo$i?>">Table de <?php echo $i?> </a></li>
+        <?php
+    }
+    ?>
     </ul>    
 </body>
 </html>
